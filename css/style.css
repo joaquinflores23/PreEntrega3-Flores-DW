@@ -95,3 +95,9 @@ footer p{
 .contexto{
     background-color: #DEE2E6;
 }
+
+.boton-contacto{
+    font-family: 'Noto Sans', sans-serif;
+    color: #F8F9FA;
+    background-color: #212529;
+}
