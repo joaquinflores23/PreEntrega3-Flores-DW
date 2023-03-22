@@ -1,0 +1,19 @@
+*{
+    @include reset (0, 0)
+}
+
+body{
+    font-family: $fuente-grl;
+    background-color: $bgc-body;
+}
+
+h1, h2, h3, h4, h5{
+    @extend %pack-titulos;
+}
+
+p{
+    color: map-get($map: $parrafos, $key: color-texto );
+    letter-spacing: map-get($map: $parrafos, $key: espacio-letras);
+    text-align: map-get($map: $parrafos, $key: aling-texto);
+    line-height: map-get($map: $parrafos, $key:alto-linea );
+}

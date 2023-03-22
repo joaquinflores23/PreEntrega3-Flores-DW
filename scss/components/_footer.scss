@@ -1,0 +1,12 @@
+footer{
+    background-color: $bgc-header-footer;
+    p{
+        font-size: small;
+    }
+    a{
+        i{
+            color: map-get($map: $footer-pie, $key: color-texto);
+            font-size: map-get($map: $footer-pie, $key: peso-fuente);
+        }
+    }
+}

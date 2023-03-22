@@ -1,0 +1,4 @@
+@mixin reset ($reset-p, $reset-m){
+    padding: $reset-p;
+    margin: $reset-m;
+}

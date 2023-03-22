@@ -1,0 +1,12 @@
+// carpeta base 
+@import './base/variables';
+@import './base/maps';
+@import './base/extend';
+@import './base/mixin';
+
+// carpeta components 
+@import './components/body';
+@import './components/header';
+@import './components/main';
+@import './components/sections';
+@import './components/footer';

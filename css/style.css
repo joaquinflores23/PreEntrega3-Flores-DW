@@ -1,103 +1,91 @@
-/*reglas generales */
-*{
-    margin: 0;
-    padding: 0;
+h1, h2, h3, h4, h5 {
+  color: #212529;
+  font-weight: 500;
+  text-align: center;
 }
 
-body{
-    font-family: 'Noto Sans', sans-serif;
-    background-color: #F8F9FA;
+.boton-contacto {
+  font-family: "Noto Sans", sans-serif;
+  color: #F8F9FA;
+  background-color: #212529;
 }
 
-/* reglas color texto */
-
-h1, h2, h3, h4, h5{
-    color: #212529;
-    font-weight: 500 ;
-    text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-/* reglas parrafos */
-
-p{
-    color: #343A40;
-    letter-spacing: 0.3px;
-    text-align: justify;
-    line-height: 1.8;
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #F8F9FA;
 }
 
-/* reglas header */
-
-.navbar-nav a{
-    color: #212529;
-    font-weight: bolder;
+p {
+  color: #343A40;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  line-height: 1.8;
 }
 
-.container-fluid{
-    align-items: end !important;
-}
-.navbar-collapse{
-    flex-grow: 0;
-}
-.navbar{
-    background-color: #ADB5BD !important;
+.navbar-nav a {
+  color: #212529;
+  font-weight: bolder;
 }
 
-/* reglas main */
-
-#carouselImagenes{
-    background-color: #E9ECEF;
+.container-fluid {
+  align-items: end !important;
 }
 
-.titulo-principal{
-    font-weight: 500;
+.navbar-collapse {
+  flex-grow: 0;
 }
 
-/* reglas section */
-
-
-section div ul li{
-    color: #343A40;
-    text-align: left;
+.navbar {
+  background-color: #ADB5BD !important;
 }
 
-.peli-1 p, .peli-2 p{
-    text-align: center;
+#carouselImagenes {
+  background-color: #E9ECEF;
 }
 
-.peli-1{
-    background-color: #E9ECEF;
+.titulo-principal {
+  font-weight: 500;
 }
 
-.peli-2{
-    background-color: #DEE2E6;
+section div ul li {
+  color: #343A40;
+  text-align: left;
 }
 
-/* relgas footer */
+.peli-1 {
+  background-color: #DEE2E6;
+}
+.peli-1 p {
+  text-align: center;
+}
 
-footer{
-    background-color: #ADB5BD;
-    }
+.peli-2 {
+  background-color: #E9ECEF;
+}
+.peli-2 p {
+  text-align: center;
+}
+
+.curiosidad {
+  background-color: #E9ECEF;
+}
+
+.contexto {
+  background-color: #DEE2E6;
+}
+
+footer {
+  background-color: #ADB5BD;
+}
+footer p {
+  font-size: small;
+}
 footer a i {
-    color: #343A40;
-    font-size: 1.5rem;
-}
-footer p{
-    font-size: small;
-}
-
-/* clases */
-
-.curiosidad{
-    background-color: #E9ECEF;
-}
-
-.contexto{
-    background-color: #DEE2E6;
-}
-
-.boton-contacto{
-    font-family: 'Noto Sans', sans-serif;
-    color: #F8F9FA;
-    background-color: #212529;
+  color: #343A40;
+  font-size: 1.5rem;
 }

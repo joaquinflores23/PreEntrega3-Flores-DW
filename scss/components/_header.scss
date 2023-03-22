@@ -1,0 +1,18 @@
+.navbar-nav{
+    a{
+        color: map-get($map: $barra-nav, $key: color-texto);
+        font-weight: map-get($map: $barra-nav, $key: peso-fuente);
+    }
+}
+
+.container-fluid{
+    align-items: end !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar{
+    background-color: $bgc-header-footer !important;
+}

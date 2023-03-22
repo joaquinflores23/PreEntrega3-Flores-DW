@@ -1,0 +1,34 @@
+$titulos:(
+    color-texto: $title-color,
+    peso-fuente: $fuente-peso-titulo,
+    aling-texto: center,
+);
+
+$parrafos:(
+    color-texto: $txt-color,
+    espacio-letras: 0.3px,
+    aling-texto: justify,
+    alto-linea: 1.8, 
+
+);
+
+$listas:(
+    color-texto: $txt-color,
+    aling-texto: left,
+);
+
+$footer-pie:(
+    color-texto: $txt-color,
+    peso-fuente: 1.5rem,
+);
+
+$boton:(
+    fuente: $fuente-grl,
+    color-texto: $bgc-body,
+    color-fondo: $title-color,
+);
+
+$barra-nav:(
+    color-texto: $title-color,
+    peso-fuente: bolder,
+)

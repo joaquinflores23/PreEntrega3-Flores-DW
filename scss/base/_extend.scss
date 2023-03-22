@@ -1,0 +1,12 @@
+%pack-titulos{
+    color: map-get($map: $titulos, $key: color-texto);
+    font-weight: map-get($map: $titulos, $key: peso-fuente);
+    text-align: map-get($map: $titulos, $key: aling-texto);
+    
+}
+
+%boton-form{
+    font-family: map-get($map: $boton, $key: fuente );
+    color: map-get($map: $boton, $key: color-texto);
+    background-color: map-get($map: $boton, $key: color-fondo);
+}

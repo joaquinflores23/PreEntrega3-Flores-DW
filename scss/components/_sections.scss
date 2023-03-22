@@ -1,0 +1,36 @@
+section{
+    div{
+        ul{
+            li{
+                color: map-get($map: $listas, $key: color-texto);
+                text-align: map-get($map: $listas, $key: aling-texto)
+            }
+        }
+    }
+}
+
+.peli-1{
+    background-color: $bgc-peliuno-context;
+    p{
+        text-align: center;
+    }
+}
+
+.peli-2{
+    background-color: $bgc-pelidos-curio;
+    p{
+        text-align: center;
+    }
+}
+
+.curiosidad{
+    background-color: $bgc-pelidos-curio;
+}
+
+.contexto{
+    background-color: $bgc-peliuno-context;
+}
+
+.boton-contacto{
+    @extend %boton-form;
+}
